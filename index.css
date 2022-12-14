@@ -11,6 +11,12 @@
     --info: #4d79f6;
     --secondary: #2b55cc;
     --black: #060b1b;
+    --fade:#7081b9;
+    --mild:#8997bd;
+    --ternary:#848db3;
+    --footer:#212A4A;
+    --twitter:#4ac7ec;
+    --dribbble:#ff5da0;
   }
 /* reset */
 *{
@@ -68,4 +74,20 @@ section.profile{
 section.profile .left{
     flex: 2;
     display: flex;
+    align-items: center;
+}
+section.profile .right{
+flex: 1;
+}
+section.profile .left h2{
+    color: var(--fade);
+    }
+section.profile .left p{
+    color: var(--mild);
+    font-size: 14px;
+}
+section.profile .right ul.contact{
+    list-style: none;
+    margin-bottom: 1.6rem;
+    color: var(--ternary);
 }
