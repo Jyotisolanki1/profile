@@ -87,7 +87,27 @@ section.profile .left p{
     font-size: 14px;
 }
 section.profile .right ul.contact{
-    list-style: none;
+    list-style-type: none;
     margin-bottom: 1.6rem;
     color: var(--ternary);
+}
+section.profile .right ul.contact li{
+    color: var(--ternary);
+    margin-bottom: 0.7rem;
+    font-size: 14px;
+}
+section.profile .right ul.contact li i{
+    font-size: 18px;
+    margin-right: 0.3rem;
+}
+section.profile .right ul.socials{
+    display: flex;
+    align-items: center;
+}
+section.profile .right ul.socials li a{
+    display: inline-block;
+    width:36px;
+    height: 36px;
+    border-radius: 50%;
+    color: var(--pure);
 }
