@@ -70,6 +70,13 @@ section.profile{
     align-items: center;
     padding: 2rem;
     margin-top: 3rem;
+    clip-path: polygon(0 0, 100% 0 ,100% 80%,25% 100%,0 80%);
+    padding-bottom: 4rem;
+}
+section.profile .left{
+    flex: 2;
+    display: flex;
+    align-items: center;
 }
 section.profile .left{
     flex: 2;
@@ -103,6 +110,10 @@ section.profile .right ul.contact li i{
 section.profile .right ul.socials{
     display: flex;
     align-items: center;
+    list-style-type: none;
+}
+section.profile .right ul.socials li{
+    margin-right: .8rem;
 }
 section.profile .right ul.socials li a{
     display: inline-block;
@@ -110,4 +121,12 @@ section.profile .right ul.socials li a{
     height: 36px;
     border-radius: 50%;
     color: var(--pure);
+    line-height: 36px;
+    text-align: center;
+}
+section.profile .right ul.socials li:nth-child(1) a{
+background: var(--secondary);
+}
+section.profile .right ul.socials li:nth-child(2) a{
+    background: var(--twitter);
 }
